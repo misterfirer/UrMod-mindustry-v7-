@@ -1,0 +1,18 @@
+type: Junction
+category: distribution
+size: 1
+health: 40
+
+speed: 26
+capacity: 6
+
+requirements: [
+    "emeraldium-ore/4"
+]
+
+research: {
+    parent: "emeraldium-conveyor"
+    requirements: [
+        "emeraldium-ore/40"
+    ]
+}

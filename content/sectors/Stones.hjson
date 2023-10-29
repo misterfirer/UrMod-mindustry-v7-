@@ -1,0 +1,10 @@
+sector: 3,
+planet: "UrPlanet",
+research: {
+        parent: "core-emerald"
+}
+difficulty: 5,
+overrideLaunchDefaults: true
+addStartingItems: true
+captureWave: 10
+alwaysUnlocked: true

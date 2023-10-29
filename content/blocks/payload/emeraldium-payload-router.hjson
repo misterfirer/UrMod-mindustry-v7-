@@ -1,0 +1,20 @@
+type: PayloadRouter
+category: units
+size: 3
+health: 340
+
+moveTime: 60
+canOverdrive: false
+underBullets: true
+
+requirements: [
+    "emeraldium-ingot/4"
+	"emeraldium-plate/4"
+]
+
+research: {
+    parent: "emeraldium-payload-conveyor"
+    requirements: [
+        "emeraldium-ingot/90"
+    ]
+}

@@ -1,0 +1,18 @@
+type: Wall
+category: defense
+size: 1
+health: 400
+
+requirements: [
+    "emeraldium-ingot/6"
+]
+
+research: {
+    parent: "core-emerald"
+    requirements: [
+        "emeraldium-ingot/60"
+    ]
+	objectives: [
+	    "emerad"
+	]
+}

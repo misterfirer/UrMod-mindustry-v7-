@@ -1,0 +1,15 @@
+{
+  "type": "LiquidRouter",
+  "health": 200,
+  "hasPower": false,
+  "placeableLiquid": true
+  "liquidPressure": 2,
+  "requirements": [
+    {
+      "item": "emeraldium-ore",
+      "amount": 3
+    }
+  ],
+  "category": "liquid",
+  "research": "fluid-tank1"
+}

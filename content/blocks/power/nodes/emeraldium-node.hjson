@@ -1,0 +1,22 @@
+type: BeamNode
+category: power
+size: 1
+health: 80
+
+consumesPower: true
+outputsPower: true
+range: 6
+consumes: {
+  powerBuffered: 10
+}
+
+requirements: [
+    "emeraldium-ingot/4"
+]
+
+research: {
+    parent: "burner"
+    requirements: [
+        "emeraldium-ingot/40"
+    ]
+}

@@ -1,0 +1,43 @@
+type: flying
+health: 300
+armor: 2
+hitSize: 9
+
+flying: true
+itemCapacity: 0
+
+speed: 5
+accel: 0.3
+drag: 0.075
+rotateSpeed: 7
+
+outlineColor: 2d2f39
+
+weapons: [
+    {
+        name: Grab-weapon
+        top: false
+        x: 2.75
+        y: 2.75
+		
+	    mirror: true
+	    alternate: true
+        reload: 15
+        shootSound: "pew"
+        bullet: {
+            type: BasicBulletType
+            damage: 16
+	        lifetime: 17
+	        speed: 8
+			
+			width: 6
+		    height: 8
+		}
+    }
+]
+
+research: {
+    parent: "fly-assembler"
+	requirements: [
+    ]
+}

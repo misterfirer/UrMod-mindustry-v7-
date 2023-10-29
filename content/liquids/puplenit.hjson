@@ -1,0 +1,24 @@
+color: 800080
+barColor: BF40BF
+effect: "corrosion"
+
+viscosity: 0.1
+temperature: 0.6
+heatCapacity: 0
+
+coolant: false
+
+particleEffect: {
+    particles: 1
+    length: 0
+    lifetime: 60
+    sizeFrom: 1
+    sizeTo: 0
+    colorFrom: 5D3FD3
+    colorTo: AA336A
+}
+
+research: {
+    parent: "emeraldium-ore"
+	alwaysUnlocked: true
+}

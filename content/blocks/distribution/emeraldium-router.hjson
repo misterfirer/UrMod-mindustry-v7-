@@ -1,0 +1,15 @@
+type: Router
+category: distribution
+size: 1
+health: 30
+
+requirements: [
+    "emeraldium-ore/3"
+]
+
+research: {
+    parent: "emeraldium-conveyor"
+    requirements: [
+        "emeraldium-ore/40"
+    ]
+}

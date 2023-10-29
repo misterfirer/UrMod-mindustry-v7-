@@ -1,0 +1,20 @@
+type: Battery
+category: power
+size: 1
+health: 70
+
+conductivePower: true
+consumes: {
+  powerBuffered: 600
+}
+
+requirements: [
+    "emeraldium-ingot/10"
+]
+
+research: {
+    parent: "burner"
+    requirements: [
+        "emeraldium-ingot/120"
+    ]
+}

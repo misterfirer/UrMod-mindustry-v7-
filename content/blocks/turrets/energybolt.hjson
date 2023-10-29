@@ -1,0 +1,77 @@
+name: energybolt
+"type": ItemTurret,
+"size": 1,
+"health": 400,
+range: 250,
+rotateSpeed: 5,
+reload: 110
+burstSpacing: 1
+shots: 1
+xRand: 1
+consumes: {
+  power: 0.7
+}
+"ammoPerShot": 2,
+recoilAmount: 3
+shootSound: EnergyBoltSound
+    "ammoTypes": {
+        "emeraldium-ingot": {
+      type: lightningBulletType,
+      "lightningLength": 20,
+      "lightningLengthRand": 12,
+      damage: 80,
+      rangeChange: -96
+      status: corrosion
+      statusDuration: 60
+      hitEffect: none
+      buildingDamageMultiplier: 0.1
+      "lightColor": "50C878",
+      lightningColor: 808000
+        lightningType: {
+      type: lightningBulletType,
+      "lightningLength": 3,
+      "lightningLengthRand": 4,
+      damage: 20,
+      hitEffect: none
+      splashDamageRadius: 10
+      "lightColor": "50C878",
+      lightningColor: 808000
+      status: corrosion
+      statusDuration: 60
+        }
+}
+        "emeraldium-plate": {
+      type: lightningBulletType,
+      "lightningLength": 30,
+      "lightningLengthRand": 20,
+      damage: 100,
+            status: death
+      statusDuration: 180
+      hitEffect: none
+      buildingDamageMultiplier: 0.1
+      "lightColor": "50C878",
+      lightningColor: 008000
+        lightningType: {
+      type: lightningBulletType,
+      "lightningLength": 4,
+      "lightningLengthRand": 5,
+      damage: 15,
+      hitEffect: none
+      splashDamageRadius: 15
+      "lightColor": "50C878",
+      lightningColor: 008000
+      status: corrosion
+      statusDuration: 180
+        }
+}
+    }
+category: turret
+requirements: [
+    emeraldium-ingot/30
+    emeraldium-ore/20
+]
+research: emerad
+researchCost: [
+    emeraldium-ingot/80
+    emeraldium-ore/50
+  ]

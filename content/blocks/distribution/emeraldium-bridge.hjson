@@ -1,0 +1,21 @@
+type: ItemBridge
+category: distribution
+size: 1
+health: 80
+range: 5
+transportTime: 5
+hasPower: false
+
+requirements: [
+    "emeraldium-ore/8"
+]
+
+research: {
+    parent: "emeraldium-conveyor"
+    requirements: [
+        "emeraldium-ore/20"
+    ]
+	objectives: [
+	    "emeraldium-drill"
+	]
+}  

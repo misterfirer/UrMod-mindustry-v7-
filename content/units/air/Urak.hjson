@@ -1,0 +1,43 @@
+type: flying
+health: 150
+armor: 1
+hitSize: 9
+
+flying: true
+itemCapacity: 0
+
+speed: 3
+accel: 0.3
+drag: 0.075
+rotateSpeed: 10
+
+outlineColor: 2d2f39
+
+weapons: [
+    {
+        name: Urak-weapon
+        top: false
+        x: 2.75
+        y: 2.75
+		
+	    mirror: true
+	    alternate: true
+        reload: 20
+        shootSound: "pew"
+        bullet: {
+            type: BasicBulletType
+            damage: 7
+	        lifetime: 17
+	        speed: 5
+			
+			width: 6
+		    height: 8
+		}
+    }
+]
+
+research: {
+    parent: "fly-assembler"
+	requirements: [
+    ]
+}

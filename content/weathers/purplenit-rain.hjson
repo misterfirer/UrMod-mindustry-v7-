@@ -1,0 +1,10 @@
+type: RainWeather
+color: adff2f
+
+attrs: {
+  light: -0.7
+}
+
+status: "effect-purplenit-rain"
+sound: rain
+soundVol: 0.25
