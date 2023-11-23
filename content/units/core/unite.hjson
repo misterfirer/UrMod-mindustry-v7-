@@ -1,6 +1,8 @@
+name: Unite
+description: Building unit for Netronium
 type: payload
 flying: true
-health: 120
+health: 230
 armor: 1
 hitSize: 9
 
@@ -9,9 +11,9 @@ isEnemy: false
 mineWalls: true
 mineFloor: true
 buildSpeed: 1.0
-itemCapacity: 10
+itemCapacity: 60
 
-speed: 3.4
+speed: 5.6
 accel: 0.4
 drag: 0.1
 mineSpeed: 3.5
@@ -23,9 +25,9 @@ hittable: false
 targetable: false
 fogRadius: 0
 coreUnitDock: true
-outlineColor: 2d2f39
+outlineColor: fcfff1
 
-payloadCapacity: 64
+payloadCapacity: 80
 pickupUnits: false
 vulnerableWithPayloads: true
 
