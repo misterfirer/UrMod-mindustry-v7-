@@ -3,7 +3,7 @@ category: crafting
 size: 2
 health: 240
 
-craftTime: 120
+craftTime: 75
 consumes: {
     items: [
         "emeraldium-ore/2"

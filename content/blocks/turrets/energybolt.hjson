@@ -19,7 +19,7 @@ shootSound: EnergyBoltSound
       type: lightningBulletType,
       "lightningLength": 20,
       "lightningLengthRand": 12,
-      damage: 80,
+      damage: 50,
       rangeChange: -96
       status: corrosion
       statusDuration: 60
@@ -44,7 +44,7 @@ shootSound: EnergyBoltSound
       type: lightningBulletType,
       "lightningLength": 30,
       "lightningLengthRand": 20,
-      damage: 100,
+      damage: 75,
             status: death
       statusDuration: 180
       hitEffect: none

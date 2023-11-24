@@ -6,12 +6,12 @@ hitSize: 9
 flying: true
 itemCapacity: 0
 
-speed: 5
+speed: 3
 accel: 0.3
 drag: 0.075
-rotateSpeed: 7
+rotateSpeed: 5
 
-outlineColor: 2d2f39
+outlineColor: 7DF9FF
 
 weapons: [
     {
@@ -22,16 +22,16 @@ weapons: [
 		
 	    mirror: true
 	    alternate: true
-        reload: 15
-        shootSound: "pew"
+        reload: 80
+        shootSound: "EnergyBoltSound"
         bullet: {
-            type: BasicBulletType
-            damage: 16
-	        lifetime: 17
-	        speed: 8
+            type: lightningBulletType
+            damage: 8
+	        lifetime: 14
+	        speed: 1
 			
-			width: 6
-		    height: 8
+			width: 1
+		    height: 2
 		}
     }
 ]

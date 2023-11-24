@@ -4,7 +4,7 @@ size: 1
 health: 140
 
 hasPower: true
-powerProduction: 0.666666666
+powerProduction: 1.2
 itemDuration: 240
 squareSprite: false
 
