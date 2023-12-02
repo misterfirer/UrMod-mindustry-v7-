@@ -20,6 +20,14 @@ plans: [
 		"emeraldium-plate/15"
 	]
     }
+	{
+    unit: "Grab"
+	time: 1300
+	requirements: [
+	    "emeraldium-ingot/15"
+		"emeraldium-plate/25"
+	]
+    }
 ]
 
 requirements: [

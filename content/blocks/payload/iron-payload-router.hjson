@@ -1,0 +1,20 @@
+type: PayloadRouter
+category: units
+size: 3
+health: 340
+
+moveTime: 60
+canOverdrive: false
+underBullets: true
+
+requirements: [
+    "iron/7"
+	"iron-plate/1"
+]
+
+research: {
+    parent: "iron-payload"
+    requirements: [
+        "iron/90"
+    ]
+}

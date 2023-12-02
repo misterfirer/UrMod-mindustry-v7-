@@ -1,9 +1,9 @@
 type: CoreBlock
 category: effect
 health: 1000
-size: 2
+size: 3
 
-itemCapacity: 1100
+itemCapacity: 4000
 unitCapModifier: 10
 unitType: "unite"
 incinerateNonBuildable: true

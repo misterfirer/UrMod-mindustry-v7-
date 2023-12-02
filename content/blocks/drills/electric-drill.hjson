@@ -1,0 +1,36 @@
+name: "Electric Drill"
+type: "Drill"
+category: "production"
+size: 2
+health: 200
+rotateSpeed: 3.2
+warmupSpeed: 0.006
+liquidBoostIntensity: 1.5
+liquidCapacity: 15
+consumes: {
+    "power": 1.3
+	"liquid": {
+		"liquid": "puplenit"
+		"amount": 0.06
+		"optional": true
+		"booster": true
+ }
+}
+
+drillTime: 150
+tier: 3
+hasLiquids: false
+
+squareSprite: false
+
+requirements: [
+    "iron/12"
+	"iron-plate/20"
+]
+
+research: {
+    parent: "iron-press"
+    requirements: [
+        "iron/50"
+    ]
+}
