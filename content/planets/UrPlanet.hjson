@@ -25,8 +25,8 @@ cloudMesh: {
     planet: UrPlanet
     seed: 1
     speed: 7
-    radius: 0.15
-    divisions: 2
+    radius: 0.13
+    divisions: 7
     color: b3fe58
     octaves: 0
     persistence: 1
@@ -42,7 +42,7 @@ mesh: {
     color2: d4fea1
     divisions: 5
     radius: 0.9
-    octaves: 7
+    octaves: 9
     persistence: 1
     scl: 0.75
     mag: 1.2
