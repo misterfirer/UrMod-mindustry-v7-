@@ -1,0 +1,25 @@
+{
+  "type": "Pump",
+  "name": "Emeraldium Pump",
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 40,
+  "size": 2,
+  "squareSprite": false,
+  "consumes": {
+    "power": 1.6 
+  },
+  "pumpAmount": 0.25,
+  "category": "liquid",
+  "research": "fluid-tank1",
+  "requirements": [
+    "emeraldium-ore/40",
+  ]
+   research: {
+    parent: "core-emerald"
+},
+researchCost: [
+    "emeraldium-ingot/15"
+    "emeraldium-ore/20"
+   ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "LiquidBridge",
+  "health": 200,
+  "hasPower": false,
+  "range": 5,
+  "liquidPressure": 2,
+  "requirements": [
+    {
+      "item": "emeraldium-ore",
+      "amount": 4
+    }
+  ],
+  "category": "liquid",
+  "research": "fluid-tank1"
+}

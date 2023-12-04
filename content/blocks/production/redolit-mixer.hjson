@@ -1,0 +1,79 @@
+{
+  "type": "GenericCrafter",
+  "size": 2,
+  "craftTime": 100,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 50,
+  "drawer": {
+    "type": "MultiEffect",
+    "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 20,
+    "sizeFrom": 0,
+    "sizeTo": 12,
+    "interp": "circleOut",
+    "strokeFrom": 8,
+    "strokeTo": 0,
+    "colorFrom": "ff9959",
+    "colorTo": "f77c2f"
+    },
+            {
+              type: ParticleEffect
+              particles: 8
+              lifetime: 30
+              length: 10
+              sizeFrom: 5
+              sizeTo: 1
+              colorFrom: ff9959
+              colorTo: f77c2f
+              strokeFrom: 3
+              strokeTo: 1.5
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+              region: moon-mod-triangle
+            }
+	]
+  }
+	"drawer": {
+	"type": "DrawMulti",
+        "drawers": [
+          {
+        "type": "DrawDefault"
+        },
+        {
+         "type": "DrawFlame",
+    "flameRadius": 3.2,
+    "flameRadiusIn": 1.0,
+    "flameRadiusScl": 3.5,
+    "flameRadiusMag": 2.2,
+    "flameRadiusInMag": 1.2,
+	"flameColor": "fa7020"
+	  },
+            {
+        "type": "DrawGlowRegion"
+        suffix: -top
+        "glowScale": 5,
+       "color": "ff5000"
+        },
+    ]
+  },
+  "outputItem": "redolit/2",
+  "consumes": {
+    "power": 3,
+    "items": [
+      "emeraldium-ore/5"
+    ],
+    "liquids": [
+      "puplenit/0.5"
+    ]
+  },
+  "requirements": [
+    "emeraldium-ore/2.5",
+    "emeraldium-ingot/1.2"
+  ],
+  "category": "crafting",
+  "research": "core-emerald"
+}

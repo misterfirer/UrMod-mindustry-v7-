@@ -1,0 +1,12 @@
+type: Floor
+variants: 0
+
+isLiquid: true
+liquidDrop: puplenit
+
+status: corrosion
+statusDuration: 300
+speedMultiplier: 0.7
+drownTime: 180
+
+cacheLayer: water

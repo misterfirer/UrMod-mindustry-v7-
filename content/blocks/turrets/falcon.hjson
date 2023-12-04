@@ -1,0 +1,41 @@
+type: ItemTurret
+category: turret
+size: 2
+health: 200
+
+reload: 15
+range: 200
+recoil: 0.5
+
+squareSprite: false
+shootSound: FalconSound
+ammoTypes: {
+	redolit: {
+		type: BasicBulletType
+		damage: 20
+		speed: 20
+		lifetime: 10
+		
+		width: 9
+		height: 12
+		
+		ammoMultiplier: 3
+	}
+}
+
+requirements: [
+    "emeraldium-ingot/40"
+	"redolit/20"
+]
+
+research: {
+    parent: "core-emerald"
+    requirements: [
+        "emeraldium-ingot/55"
+	]
+}
+
+drawer: {
+    type: DrawTurret
+    basePrefix: "urbase-"
+}

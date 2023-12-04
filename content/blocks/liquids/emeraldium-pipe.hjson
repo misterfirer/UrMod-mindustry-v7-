@@ -1,0 +1,15 @@
+{
+  "type": "conduit",
+  "name": "emeraldium pipe",
+  "description": "A fast pipe",
+  "health": 200,
+  "liquidPressure": 2,
+  "requirements": [
+    {
+      "item": "emeraldium-ore",
+      "amount": 2
+    }
+  ],
+  "category": "liquid",
+  "research": "fluid-tank1"
+}

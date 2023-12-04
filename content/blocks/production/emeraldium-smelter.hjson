@@ -1,0 +1,41 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 240
+
+craftTime: 75
+consumes: {
+    items: [
+        "emeraldium-ore/2"
+		"ur-coal/1"
+	]
+}
+outputItem: "emeraldium-ingot/1"
+
+squareSprite: false
+
+requirements: [
+    "emeraldium-ore/30"
+]
+
+research: {
+    parent: "core-emerald"
+    requirements: [
+        "emeraldium-ore/70"
+    ]
+	objectives: [
+	    "iron-conveyor"
+	]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+]

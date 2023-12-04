@@ -1,0 +1,73 @@
+type: legs
+health: 500
+armor: 2
+hitSize: 9
+
+itemCapacity: 0
+
+speed: 1
+hitSize: 10
+faceTarget: true
+range: 40
+targetAir: true
+rotateSpeed: 3
+legMoveSpace: 1
+legMaxLength: 1.2
+legMinLength: 0.3
+legLengthScl: 0.96
+legForwardScl: 0.5
+legPhysicsLayer: true
+legGroupSize: 2
+legCount: 4
+legExtension: 0
+legContinuousMove: true
+lockLegBase: false
+rippleScale: 0.2
+legBaseOffset: 0
+legLength: 9
+allowLegStep: true
+hovering: false
+immunities: [  
+  "corrosion"  
+  ]
+  
+weapons: [
+    {
+       name:redospider-gun
+       x: 5.5
+       y: 0
+       mirror: true
+       shoot: {
+       type: ShootPattern
+       shots: 1
+       shotDelay: 4
+       }
+       top: false
+       rotate: true
+       reload: 20
+       recoil: 3
+       shootSound: lasershoot
+       ejectEffect: none
+	   bullet: {
+	      type: SapBulletType
+          sapStrength: 0.5
+          length: 70
+          damage: 15
+          shootEffect: shootSmall
+          hitColor: DC143C
+          color: DC143C
+          despawnEffect: none
+          width: 1
+          lifetime: 20
+          knockback: -2
+		  status: corrosion
+		  statusDuration: 50
+          }
+     }
+]
+
+research: {
+    parent: "spider-assembler"
+	requirements: [
+    ]
+}

@@ -1,0 +1,5 @@
+damage: 9999999999
+healthMultiplier: 0.01
+
+permanent: true
+show: false
