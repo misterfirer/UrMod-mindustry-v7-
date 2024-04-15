@@ -1,0 +1,75 @@
+type: mech
+health: 1000
+armor: 5
+hitSize: 9
+
+itemCapacity: 0
+
+speed: 0.5
+hitSize: 10
+drag: 0.3
+accel: 0.4
+range: 65
+flying: false
+targetAir: false
+destructableWreck: false
+rotateSpeed: 3
+hovering: false
+immunities: [  
+  "corrosion"  
+  ]
+  
+weapons: [
+    {
+      name: robogunA2-gun
+	  x: 5
+	  y: 0
+      shootSound:laser
+      reload: 35
+      alternate: true
+      shootY: 5.5
+      recoil: 2
+      rotate: true
+      rotateSpeed: 2
+      bullet: {
+        type:LaserBulletType
+		width: 10
+        height: 15
+        damage: 135
+        buildingDamageMultiplier: 2.6
+        lifetime: 40
+        pierce: true
+        hitEffect: hitBulletColor
+        despawnEffect: hitBulletColor
+      }
+    }
+    {	
+	  name: robogunA2-gun
+	  x: -5
+	  y: 0
+      shootSound:laser
+      reload: 40
+      alternate: true
+      shootY: 5.5
+      recoil: 2
+      rotate: true
+      rotateSpeed: 2
+      bullet: {
+        type:LaserBulletType
+		width: 10
+        height: 15
+        damage: 135
+        buildingDamageMultiplier: 2.6
+        lifetime: 40
+        pierce: true
+        hitEffect: hitBulletColor
+        despawnEffect: hitBulletColor
+      }
+    }
+]
+
+research: {
+    parent: "spider-assembler"
+	requirements: [
+    ]
+}
