@@ -1,0 +1,15 @@
+type: Wall
+category: defense
+size: 1
+health: 2400
+
+requirements: [
+    "redolit/24"
+]
+
+research: {
+    parent: "redolit-wall"
+    requirements: [
+        "redolit/300"
+    ]
+}

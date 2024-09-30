@@ -1,0 +1,7 @@
+type: MessageBlock
+size: 1
+requirements: [
+  emeraldium-ingot/10
+]
+category: logic
+research: Purplentriver

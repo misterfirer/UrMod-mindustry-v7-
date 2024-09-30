@@ -1,0 +1,17 @@
+sector: 5,
+planet: "UrPlanet",
+research: {
+        parent: "Stones"
+}
+difficulty: 5,
+overrideLaunchDefaults: true
+addStartingItems: true
+alwaysUnlocked: false
+
+research: {
+    parent: "purplium"
+    requirements: [
+        "emeraldium-ore/1000"
+		"redolit/500"
+    ]
+}

@@ -1,0 +1,18 @@
+type: Wall
+category: defense
+size: 1
+health: 600
+
+requirements: [
+    "redolit/6"
+]
+
+research: {
+    parent: "emeraldium-wall-large"
+    requirements: [
+        "redolit/60"
+    ]
+	objectives: [
+	    "Purplentriver"
+	]
+}

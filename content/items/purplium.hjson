@@ -1,0 +1,19 @@
+name: Purplium
+description: The quite explosiveness material.
+color: C55EF5
+
+explosiveness: 0.55
+flammability: 0.1
+radioactivity: 0.3
+charge: 0.45
+cost: 1.5
+
+research: {
+    parent: "purplium-smelter"
+}
+
+buildable: true
+hiddenOnPlanets: [
+    "serpulo"
+    "erekir"
+]

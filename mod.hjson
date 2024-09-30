@@ -1,15 +1,16 @@
 name: "UrMod"
 minGameVersion: 145.1
 displayName: "UrMod"
-author: "SausageCheck1"
-subtitle: "Version: v1.0"
+author: "SausageCheck1 & Denis[red]R[green]G[blue]B"
+subtitle: "Version: v1.2"
 description:
 
 '''
 This mod adds tons of items and a new planet!!!
 The planet contains a poisonous atmosphere, but at the same time it has precious green material. The planet also contains the poisonous substance Puplenite.
-Mod version beta 1.0
+Mod version beta 1.2
 '''
 
 dependencies: []
 hideBrowser: false
+

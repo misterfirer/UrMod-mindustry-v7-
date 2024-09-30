@@ -1,0 +1,44 @@
+type: UnitFactory
+size: 3
+health: 500
+category: units
+
+
+configurable: true //temporary
+regionSuffix: "-dark" //-ur
+
+consumes: {
+    power: 1.1
+}
+
+plans: [
+    {
+    unit: "robogunA1"
+	time: 1500
+	requirements: [
+	    "emeraldium-ingot/43"
+		"emeraldium-plate/28"
+	]
+    }
+	{
+    unit: "robogunA2"
+	time: 1750
+	requirements: [
+	    "emeraldium-ingot/45"
+		"emeraldium-plate/33"
+	]
+    }
+]
+
+requirements: [
+    "emeraldium-ingot/75"
+	"emeraldium-plate/50"
+]
+
+research: {
+    parent: "Purplent-river"
+    requirements: [
+        "emeraldium-ingot/350"
+		"emeraldium-plate/120"
+    ]
+}

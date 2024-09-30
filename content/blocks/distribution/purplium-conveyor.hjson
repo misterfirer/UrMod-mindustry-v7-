@@ -1,0 +1,25 @@
+type: Conveyor
+category: distribution
+size: 1
+health: 50
+
+speed: 0.06
+displayedSpeed: 5.4
+
+requirements: [
+    "purplium/10"
+    "redolit/15"
+    "iron-plate/15"
+]
+
+research: {
+    parent: "iron-conveyor"
+    requirements: [
+        "purplium/50"
+        "redolit/75"
+        "iron-plate/75"
+    ]
+	objectives: [
+	    "purplium"
+	]
+}

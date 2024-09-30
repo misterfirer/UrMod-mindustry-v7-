@@ -1,0 +1,26 @@
+type: ShockMine 
+hasShadow: false
+health: 70
+damage: 80
+tileDamage: 10
+length: 5
+tendrils: 10
+category: effect
+bullet: {
+	type: ExplosionBulletType
+	splashDamage: 10
+	splashDamageRadius: 5
+	killShooter: true
+}
+requirements: [
+    "purplium/10"
+    "redolit/5"
+]
+
+research: {
+    parent: "emeraldium-wall-large"
+    requirements: [
+        "purplium/75"
+        "redolit/25"
+    ]
+}
