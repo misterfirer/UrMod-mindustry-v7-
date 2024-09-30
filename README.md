@@ -1,8 +1,7 @@
 # UrMod-mindustry-v7-
 
 
-![logo](https://github.com/misterfirer/UrMod-mindustry-v7-/assets/75091040/ff4265d2-4c7f-4ad9-82cd-cc555b1c0aa1)
-
+![logo](https://github.com/user-attachments/assets/f587668e-96e7-4996-a1ae-d8c07b4f0482)
 
 
 
