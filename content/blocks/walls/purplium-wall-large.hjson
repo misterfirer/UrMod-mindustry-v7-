@@ -1,15 +1,15 @@
 type: Wall
 category: defense
 size: 2
-health: 2400
+health: 3400
 
 requirements: [
-    "redolit/24"
+    "purplium/54"
 ]
 
 research: {
-    parent: "redolit-wall"
+    parent: "purplium-wall"
     requirements: [
-        "redolit/300"
+        "purplium/250"
     ]
 }

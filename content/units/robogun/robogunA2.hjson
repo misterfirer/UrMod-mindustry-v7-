@@ -35,7 +35,7 @@ weapons: [
         type:LaserBulletType
 		width: 10
         height: 15
-        damage: 135
+        damage: 35
         buildingDamageMultiplier: 2.6
         lifetime: 40
         pierce: true
@@ -58,7 +58,7 @@ weapons: [
         type:LaserBulletType
 		width: 10
         height: 15
-        damage: 135
+        damage: 35
         buildingDamageMultiplier: 2.6
         lifetime: 40
         pierce: true

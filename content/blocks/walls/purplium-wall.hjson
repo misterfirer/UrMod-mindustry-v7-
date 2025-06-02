@@ -1,0 +1,18 @@
+type: Wall
+category: defense
+size: 1
+health: 1200
+
+requirements: [
+    "purplium/18"
+]
+
+research: {
+    parent: "purplium-wall-large"
+    requirements: [
+        "purplium/200"
+    ]
+	objectives: [
+	    "Purplentriver"
+	]
+}
